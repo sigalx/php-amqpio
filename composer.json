@@ -1,0 +1,20 @@
+{
+    "name": "sigalx/php-amqpio",
+    "description": "Simple and powerful tools to managing AMQP data input/output in your own PHP-application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Shcheglov",
+            "email": "sigalx@sigalx.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-json": "*",
+        "ext-amqp": "*"
+    },
+    "autoload": {
+        "psr-4": {"sigalx\\amqpio\\": "src/"}
+    }
+}
